@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>99C0190246486F6AD165F58D284989D9</ExecutionGuid>
+<CrashGUID>UE4CC-Windows-33E683394F6A3A4F0C4DF695B9864F59_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<ErrorMessage>Assertion failed: PeerConnection [File:D:/Build/++UE4/Sync/Engine/Plugins/Media/PixelStreaming/Source/PixelStreaming/Private/Streamer.cpp] [Line: 226] 
+
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>13888</ProcessId>
+<SecondsSinceStart>16</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE4-MyProject4</GameName>
+<ExecutableName>MyProject4</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.25-CL-14469661-Win64-Development</Symbols>
+<PlatformName>WindowsNoEditor</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.25.4-14469661+++UE4+Release-4.25</EngineVersion>
+<CommandLine> MyProject4 -AudioMixer -PixelStreamingIP=localhost -PixelStreamingPort=8888 -RenderOffScreen</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en-US</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.25-CL-14469661</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Users/Gilson Rivera/Desktop/WindowsNoEditor/MyProject4/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/Gilson Rivera/Desktop/WindowsNoEditor/</RootDir>
+<MachineId>DBDCD903448008786E2D0784EF69BED8</MachineId>
+<LoginId>dbdcd903448008786e2d0784ef69bed8</LoginId>
+<EpicAccountId>783ca896d1f84503afe2d06d7a82898a</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>Intel(R) HD Graphics 630</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (Release 2009)</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>17057812480</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>12903960576</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140730564542464</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>392118272</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>394240000</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>1075326976</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>1078550528</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>4</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+MyProject4  0x0000000088ab0000 + 14fbe7b 
+MyProject4  0x0000000088ab0000 + 14fe0d0 
+MyProject4  0x0000000088ab0000 + 74ab06  
+MyProject4  0x0000000088ab0000 + 75c289  
+MyProject4  0x0000000088ab0000 + 75e404  
+MyProject4  0x0000000088ab0000 + 75b484  
+MyProject4  0x0000000088ab0000 + 74eced  
+MyProject4  0x0000000088ab0000 + 55c422c 
+MyProject4  0x0000000088ab0000 + 55c4616 
+MyProject4  0x0000000088ab0000 + 136278d 
+MyProject4  0x0000000088ab0000 + 1335b40 
+MyProject4  0x0000000088ab0000 + 133b4a7 
+MyProject4  0x0000000088ab0000 + 136278d 
+MyProject4  0x0000000088ab0000 + 70afa0  
+MyProject4  0x0000000088ab0000 + 71b42c  
+MyProject4  0x0000000088ab0000 + 71b4ea  
+MyProject4  0x0000000088ab0000 + 72c780  
+MyProject4  0x0000000088ab0000 + 62cdb5e 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</PCallStack>
+<PCallStackHash>BF7AC00393EFBCD6DE0AF2E7A16E5965CCE97D0B</PCallStackHash>
+<Threads><Thread><CallStack>ntdll         0x00000000ec270000 + 9cdf4   
+KERNELBASE    0x00000000e9c00000 + 21a5e   
+MyProject4    0x0000000088ab0000 + 17abb8d 
+MyProject4    0x0000000088ab0000 + 62da84e 
+VCRUNTIME140  0x00000000d6200000 + ecf0    
+ntdll         0x00000000ec270000 + a20cf   
+ntdll         0x00000000ec270000 + 51454   
+ntdll         0x00000000ec270000 + 511a5   
+KERNELBASE    0x00000000e9c00000 + 34f69   
+MyProject4    0x0000000088ab0000 + 17abad6 
+MyProject4    0x0000000088ab0000 + 17aeeb8 
+MyProject4    0x0000000088ab0000 + 1566d0d 
+MyProject4    0x0000000088ab0000 + 14fbe7b 
+MyProject4    0x0000000088ab0000 + 14fe0d0 
+MyProject4    0x0000000088ab0000 + 74ab06  
+MyProject4    0x0000000088ab0000 + 75c289  
+MyProject4    0x0000000088ab0000 + 75e404  
+MyProject4    0x0000000088ab0000 + 75b484  
+MyProject4    0x0000000088ab0000 + 74eced  
+MyProject4    0x0000000088ab0000 + 55c422c 
+MyProject4    0x0000000088ab0000 + 55c4616 
+MyProject4    0x0000000088ab0000 + 136278d 
+MyProject4    0x0000000088ab0000 + 1335b40 
+MyProject4    0x0000000088ab0000 + 133b4a7 
+MyProject4    0x0000000088ab0000 + 136278d 
+MyProject4    0x0000000088ab0000 + 70afa0  
+MyProject4    0x0000000088ab0000 + 71b42c  
+MyProject4    0x0000000088ab0000 + 71b4ea  
+MyProject4    0x0000000088ab0000 + 72c780  
+MyProject4    0x0000000088ab0000 + 62cdb5e 
+KERNEL32      0x00000000ead10000 + 17034   
+ntdll         0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>12960</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15508</ThreadID>
+<ThreadName>TaskGraphThreadNP 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8572</ThreadID>
+<ThreadName>TaskGraphThreadNP 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13428</ThreadID>
+<ThreadName>TaskGraphThreadNP 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15716</ThreadID>
+<ThreadName>TaskGraphThreadNP 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9300</ThreadID>
+<ThreadName>TaskGraphThreadNP 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11076</ThreadID>
+<ThreadName>TaskGraphThreadNP 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6084</ThreadID>
+<ThreadName>TaskGraphThreadHP 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6124</ThreadID>
+<ThreadName>TaskGraphThreadHP 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16224</ThreadID>
+<ThreadName>TaskGraphThreadHP 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15564</ThreadID>
+<ThreadName>TaskGraphThreadHP 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15668</ThreadID>
+<ThreadName>TaskGraphThreadHP 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10548</ThreadID>
+<ThreadName>TaskGraphThreadHP 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11192</ThreadID>
+<ThreadName>TaskGraphThreadBP 12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7980</ThreadID>
+<ThreadName>TaskGraphThreadBP 13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16052</ThreadID>
+<ThreadName>TaskGraphThreadBP 14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13108</ThreadID>
+<ThreadName>TaskGraphThreadBP 15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13800</ThreadID>
+<ThreadName>TaskGraphThreadBP 16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134f1ff 
+MyProject4  0x0000000088ab0000 + 135046d 
+MyProject4  0x0000000088ab0000 + 135706b 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15184</ThreadID>
+<ThreadName>TaskGraphThreadBP 17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134fdc1 
+MyProject4  0x0000000088ab0000 + 13503f3 
+MyProject4  0x0000000088ab0000 + 162d0dd 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6604</ThreadID>
+<ThreadName>StatsThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 1449244 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15312</ThreadID>
+<ThreadName>PoolThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 1449244 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6864</ThreadID>
+<ThreadName>PoolThread 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 1449244 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11752</ThreadID>
+<ThreadName>PoolThread 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 1449244 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12668</ThreadID>
+<ThreadName>PoolThread 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 1449244 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2708</ThreadID>
+<ThreadName>PoolThread 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 1449244 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8124</ThreadID>
+<ThreadName>PoolThread 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 1449244 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6480</ThreadID>
+<ThreadName>PoolThread 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 1449244 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5540</ThreadID>
+<ThreadName>PoolThread 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9d3f4   
+KERNELBASE  0x00000000e9c00000 + 4962e   
+MyProject4  0x0000000088ab0000 + 1575d25 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9312</ThreadID>
+<ThreadName>FAsyncWriter_MyProject4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 3f93e1c 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7484</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9d3f4   
+KERNELBASE  0x00000000e9c00000 + 4962e   
+MyProject4  0x0000000088ab0000 + 1b7b63e 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>84</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 10ceb26 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15400</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 1449244 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11672</ThreadID>
+<ThreadName>PoolThread 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 1449244 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5060</ThreadID>
+<ThreadName>PoolThread 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 1449244 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13792</ThreadID>
+<ThreadName>PoolThread 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 1449244 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11740</ThreadID>
+<ThreadName>PoolThread 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134fdc1 
+MyProject4  0x0000000088ab0000 + 13503f3 
+MyProject4  0x0000000088ab0000 + 35dc984 
+MyProject4  0x0000000088ab0000 + 35df1b9 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9556</ThreadID>
+<ThreadName>RenderThread 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9d3f4   
+KERNELBASE  0x00000000e9c00000 + 4962e   
+MyProject4  0x0000000088ab0000 + 17ceb3e 
+MyProject4  0x0000000088ab0000 + 35df307 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14396</ThreadID>
+<ThreadName>RTHeartBeat 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 20c84ca 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>604</ThreadID>
+<ThreadName>FMessageBus.DefaultBus.Router</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 55bf472 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14592</ThreadID>
+<ThreadName>FFileTransferRunnable</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9d3f4   
+KERNELBASE  0x00000000e9c00000 + 4962e   
+MyProject4  0x0000000088ab0000 + 17ceb3e 
+MyProject4  0x0000000088ab0000 + 4de8ae1 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11700</ThreadID>
+<ThreadName>ScreenSaverInhibitor</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 3ae75a0 
+MyProject4  0x0000000088ab0000 + 3ae739e 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14672</ThreadID>
+<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9cdf4   
+KERNELBASE  0x00000000e9c00000 + 21a5e   
+MyProject4  0x0000000088ab0000 + 17d15a6 
+MyProject4  0x0000000088ab0000 + 134fdc1 
+MyProject4  0x0000000088ab0000 + 13503f3 
+MyProject4  0x0000000088ab0000 + 42547c2 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4244</ThreadID>
+<ThreadName>AudioThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000ec270000 + 9d3f4   
+KERNELBASE  0x00000000e9c00000 + 4962e   
+MyProject4  0x0000000088ab0000 + 55c6fa6 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10816</ThreadID>
+<ThreadName>LibwebsocketsThread</ThreadName>
+</Thread>
+<Thread><CallStack>MyProject4  0x0000000088ab0000 + 55376b9 
+MyProject4  0x0000000088ab0000 + 14494fc 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15116</ThreadID>
+<ThreadName>NvVideoEncoder</ThreadName>
+</Thread>
+<Thread><CallStack>win32u      0x00000000ea250000 + 1104    
+USER32      0x00000000ea8e0000 + 21b3e   
+MyProject4  0x0000000088ab0000 + 770d0b  
+MyProject4  0x0000000088ab0000 + 14494fc 
+MyProject4  0x0000000088ab0000 + 17cd92f 
+MyProject4  0x0000000088ab0000 + 17c4a50 
+KERNEL32    0x00000000ead10000 + 17034   
+ntdll       0x00000000ec270000 + 52651   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12704</ThreadID>
+<ThreadName>PixelStreamer WebRTC signalling thread</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>true</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+<RHI.IsGPUOverclocked>false</RHI.IsGPUOverclocked>
+<RHI.RHIName>D3D11</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce GTX 1060</RHI.AdapterName>
+<RHI.UserDriverVersion>511.23</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>30.0.15.1123</RHI.InternalDriverVersion>
+<RHI.DriverDate>1-10-2022</RHI.DriverDate>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
