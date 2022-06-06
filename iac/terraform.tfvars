@@ -3,8 +3,8 @@
 
 deployment_regions = {
   
-  eastus-unreal-rg = {
-    location                = "eastus"
+  usgovvirginia-unreal-rg = {
+    location                = "usgovvirginia"
     vnet_address_space      = "10.100.0.0/16"
     subnet_address_prefixes = "10.100.0.0/22"
   }
